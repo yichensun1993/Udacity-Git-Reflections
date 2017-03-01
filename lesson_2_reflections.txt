@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A hidden .git repository is created and metadata about the history of the repository will be stored there as I will not usually intereact with those metadata.
 And only after I created the .git configuration shall I be able to keep the directory a repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an intermediate status between a working directory and the repository, it adds file from working directory to prepare a commit which operates on the repository.
+This gives flexibility to making commits, and allows us to make logical independent commit one at a time.
