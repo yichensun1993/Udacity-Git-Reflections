@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A hidden .git repository is created and metadata about the history of the repository will be stored there as I will not usually intereact with those metadata.
+And only after I created the .git configuration shall I be able to keep the directory a repository.
