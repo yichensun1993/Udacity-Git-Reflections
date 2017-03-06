@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When I need to share my code with others or when I am in collaboration with others. By commiting to a remote repository,
+I can keep my most updated code version reachable to others and get recommendation for improvement. It is also another backup
+of my code so I won't panic if I accidentally delete the local version.
