@@ -6,3 +6,8 @@ of my code so I won't panic if I accidentally delete the local version.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 There might be others working on the same file. So instead of letting everyone's progress jam up my local git log, I shall want to
 keep updated to the online version only when I know what is going on and what commits others have made.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Forks are online version of a cloned repository, this exists when we want to copy another's repository and share with collaborators to improve. 
+Clones are local version of a repository from another Github URL or file location, I would git clone a repository for editing on a local computer.
+Branches are the unit each git push/pull operates on and keep track of a feature's history.
