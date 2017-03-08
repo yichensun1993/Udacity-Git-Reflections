@@ -16,3 +16,13 @@ What is the benefit of having a copy of the last known state of the remote store
 This creates the branch origin/master, and this copy of the remote branch could be used to fetch new changes in the remote branch and prepare for
 future merge. In this case, we could know where are we from the last know push/pull, and when we are ready to sync with the most recent commit on
 Github, we can have local changes and last remote branch's changes merged to reduce conflicts.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would possibly need to copy my files between me and collaborators frequently for combining our progress, but by using Github, it is much simpler
+to let Github track different branches and let us merge our progress whenever necessary. By adding everything to Github, me and collaborators would
+have a common place to work on, and this works best when physically I cannot meet my collaborators.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When the feature is immature that I want to test on a separate branch rather than jam up my master branch, or when the work is not linearly related 
+to my past master commits. Work directly on master branch is more straightforward and easy to operate with, while changes introduced to another branch
+would clear up the logical map of my work and make it easy to collaborate with others, i.e. pull request, leaving comments ...
